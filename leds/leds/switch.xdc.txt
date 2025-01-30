@@ -1,0 +1,19 @@
+
+ ##Switches
+ set property PACKAGE PIN G15 [ get ports {SWITCHES[0]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {SWITCHES[0]}]
+ set property PACKAGE PIN P15 [ get ports {SWITCHES[1]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {SWITCHES[1]}]
+ set property PACKAGE PIN W13 [ get ports {SWITCHES[2]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {SWITCHES[2]}]
+ set property PACKAGE PIN T16 [ get ports {SWITCHES[3]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {SWITCHES[3]}]
+ ##LEDs
+ set property PACKAGE PIN M14 [ get ports {LEDS[0]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {LEDS[0]}]
+ set property PACKAGE PIN M15 [ get ports {LEDS[1]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {LEDS[1]}]
+ set property PACKAGE PIN G14 [ get ports {LEDS[2]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {LEDS[2]}]
+ set property PACKAGE PIN D18 [ get ports {LEDS[3]}]
+ set property IOSTANDARD LVCMOS33 [ get ports {LEDS[3]}]
